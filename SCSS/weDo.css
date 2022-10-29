@@ -1,0 +1,43 @@
+body {
+  height: 100%;
+  margin: 0px;
+}
+body .partOne {
+  background-image: url(../images/headerfinish.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin-top: 20px;
+  background-attachment: fixed;
+  height: 100%;
+}
+body .partOne h1 {
+  color: #ffc900;
+  font-size: xxx-large;
+  font-weight: bolder;
+  position: inherit;
+  padding-bottom: 100px;
+}
+body .partDos p {
+  color: #000080;
+  margin: 100px;
+  font-size: x-large;
+}
+body .partDos p #special {
+  font-size: xx-large;
+}
+body .parteTres h5, body .parteTres p {
+  color: #000080;
+}
+body .parteTres .container .col {
+  padding-bottom: 40px;
+}
+body footer a {
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .partOne {
+    background-attachment: scroll;
+  }
+}/*# sourceMappingURL=weDo.css.map */

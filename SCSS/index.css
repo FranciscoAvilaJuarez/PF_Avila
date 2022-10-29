@@ -1,0 +1,20 @@
+body img:hover {
+  opacity: 0.5;
+}
+body .secondPart h1, body .secondPart p {
+  color: #000080;
+}
+body .parteFour h1, body .parteFour h5, body .parteFour p {
+  color: #000080;
+}
+body .parteCinco h1 {
+  color: #000080;
+  padding: 20px;
+}
+body .parteCinco .cincoIntro .position-relative {
+  background-color: #ffc900;
+  padding: 100px;
+}
+body footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

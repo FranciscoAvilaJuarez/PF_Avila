@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./SCSS/contactUs.css">
+    <script src="./contactUs.js"></script>
+
+    
+    <title>ContactUs</title>
+
+  </head>
+
+
+  <body>
+
+    <!--nav-->
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(22, 13, 141)">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="./index.html"> <h5 class="text-warning">Raul's Electric </h5> </a> 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="offcanvasNavbar" >
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel"> <!--inside menu-->
+                    
+                    <div class="offcanvas-header">
+                        <h5 class="text-warning">Raul's Electric </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+     
+                            <li class="nav-item">
+                                <a href="./aboutUs.html" class="nav-link" > <h5 class="text-warning"> About Us </h5> </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="./weDo.html" class="nav-link"> <h5 class="text-warning"> What we do </h5> </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="./portofolio.html" class="nav-link"> <h5 class="text-warning"> Portofolio </h5> </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="./contactUs.html" class="nav-link"> <h5 class="text-warning"> Contact Us </h5> </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!--inside menu end-->
+
+            </div>  <!--fluid-->
+
+        </nav>  
+    </div>  <!--nav end-->
+    
+    
+    <!-- first part --> 
+    <div class="primeraParte">
+        <div class="p-3"></div>
+
+        <div class="row">            
+            
+            <!--map--> 
+            <div class="p-4 "></div>
+            <div class="col" >
+                
+                <div class="barra"> <h1>Our Location : </h1> </div>
+                <div class="p-1"></div>
+
+                <iframe
+                width= 100%
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0VZR_8tDBYgRxrU0isUna9g&key=process.env.API_KEY"></iframe>
+                </iframe>
+            </div>
+
+            <!--form-->
+            <div class="col" >
+                
+                <div class="barra"> <h1>Contact Us: </h1> </div>
+                <div class="p-1"></div>
+
+                <form autocomplete="on">
+                    <label for="fname"> <h5> First name : </h5> </label>
+                    <input type="text" id="fname" name="fname"> <br><br>
+
+                    <label for="lname"> <h5> Last name : </h5> </label>
+                    <input type="text" id="lname" name="lsname"> <br><br>
+
+                    <label for="Insname"> <h5> Insurance Name : </h5> </label>
+                    <input type="text" id="Insname" name="Insname"> <br><br>
+
+                    <label for="message"> <h5> Message : </h5> </label><br>
+                    <textarea name="message" rows="10%" cols="50%">
+    im trying to submit form 
+                    </textarea> <br><br>
+
+                    <input type="submit" value="Submit"> <br><br>
+                    
+                </form>    
+            </div>            
+
+        </div>        
+
+    </div>
+
+
+    <!--footer --> 
+    <footer class=" text-center " style="background-color:  rgb(22, 13, 141)">
+        <div class="container p-2" >
+            <section class="">
+                <div class="row"> <!--row parent--> 
+
+                    <div class="col" >
+                        <a href="./index.html"> <h5  class="text-warning"> Home </h5> </a>
+                    </div>    
+
+                    <div class="col">
+                        <a href="./aboutUs.html"> <h5 class="text-warning"> About Us </h5> </a>
+                    </div>
+
+                    <div class="col">
+                        <a  href="./weDo.html"> <h5 class="text-warning"> what We DO </h5> </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="./portofolio.html" > <h5 class="text-warning"> Portofolio </h5> </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="./contactUs.html"> <h5 class="text-warning"> Contact Us </h5> </a>
+                    </div>
+                </div>
+
+            </section>
+    
+        </div>
+    </footer>
+    <!--footer end-->
+
+  </body>
+</html>

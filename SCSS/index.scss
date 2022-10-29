@@ -1,0 +1,47 @@
+
+body{
+
+  img:hover {
+      opacity: .5;
+  }
+
+  .secondPart{
+
+    h1, p{
+      color: #000080;
+    }
+  }
+
+  .parteFour{
+    h1, h5, p{
+      color: #000080;
+    }
+  }
+
+
+  .parteCinco{
+
+    h1{
+      color: #000080;
+      padding: 20px;
+    }
+
+    .cincoIntro{
+      .position-relative{
+        background-color: #ffc900;
+        padding: 100px;
+      }
+    }
+
+  }
+
+
+  footer{
+      
+    a{
+        text-decoration: none;
+    }
+  }
+
+
+}
