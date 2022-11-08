@@ -1,7 +1,21 @@
 
 body{
 
+    .container{
+
+        .col{
+            padding: 30px;
+        }
+        .carousel-inner{
+            img{
+                width: 50%;
+                max-height: 300px;
+            }
+        }
+    }
+
     .partOne{
+        padding-top: 20px;
         h1, p{
             color: #000080;
         }
