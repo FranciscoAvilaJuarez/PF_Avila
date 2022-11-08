@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "electric",
   "version": "1.0.0",
   "description": "",
@@ -17,4 +18,5 @@
   "dependencies": {
     "dotenv": "^16.0.3"
   }
+  
 }

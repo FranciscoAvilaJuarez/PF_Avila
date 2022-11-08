@@ -1,21 +1,18 @@
-require('dotenv').config();
-console.log(process.env);
+//import { resolve } from 'path';
+require('dotenv').config({ path: './.env' });
+//console.log(process.env);
 
-const apiKey = process.env.API_KEY;
+apiKey = process.env.API_KEY;
 
-export async function handler(event) {
-  
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}`;
+catchApiKey(apiKey).catch( error => {
+  console.log('error!'); 
+  console.log(error); 
+}); 
 
-  const response = await fetch(url);
-  const data = await response.json();
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      data: data
-    }),
-  };
+async function catchApiKey(){
+  const response = await fetch (apiKey); 
+  const blob = await response.blob(); 
+  document.getElementById(apiKey).src = URL.createObjectURL(blob); 
 }
 
 
