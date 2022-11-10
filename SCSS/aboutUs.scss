@@ -1,5 +1,24 @@
 
 body{
+
+    .timeline {
+        position: relative;
+    }
+
+    /* Container around content */
+    .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+        color: #002D62;
+
+        img{
+            padding: 15px;
+        }
+    }
+
     .md-image{
         background-size: cover;
     }

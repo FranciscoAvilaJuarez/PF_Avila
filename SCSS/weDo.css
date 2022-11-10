@@ -3,7 +3,7 @@ body {
   margin: 0px;
 }
 body .partOne {
-  background-image: url(../images/headerfinish.png);
+  background-image: url(../images/TransitVanFamily.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px;
@@ -29,15 +29,20 @@ body .partDos p #special {
 body .parteTres h5, body .parteTres p {
   color: #000080;
 }
+body .parteTres .container img {
+  width: 100%;
+  height: 300px;
+}
+body .parteTres .container .row {
+  margin: 10px;
+}
 body .parteTres .container .col {
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .parteTres .container .col .card {
+  padding: 10px;
 }
 body footer a {
   text-decoration: none;
-}
-
-@media only screen and (max-device-width: 768px) {
-  .partOne {
-    background-attachment: scroll;
-  }
 }/*# sourceMappingURL=weDo.css.map */

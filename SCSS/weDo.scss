@@ -3,7 +3,7 @@ body{
     margin: 0px;
 
     .partOne{
-        background-image: url(../images/headerfinish.png);
+        background-image: url(../images/TransitVanFamily.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 200px;
@@ -36,12 +36,32 @@ body{
 
 
     .parteTres{
+
         h5, p{
             color: #000080;
         }
+
         .container{
+
+            img{
+                width: 100%;
+                
+                height: 300px;
+
+                
+            }
+    
+            .row{
+                margin: 10px;
+            }
+            
             .col{
-                padding-bottom: 40px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+    
+                .card{
+                    padding: 10px;
+                }
             }
         }
         
@@ -58,8 +78,3 @@ body{
       
 }
 
-@media only screen and (max-device-width: 768px) {
-    .partOne {
-      background-attachment: scroll;
-    }
-  }

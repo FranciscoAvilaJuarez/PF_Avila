@@ -4,16 +4,42 @@ body img:hover {
 body .secondPart h1, body .secondPart p {
   color: #000080;
 }
+body .terceraParte .row-2 {
+  padding-bottom: 10px;
+}
+body .terceraParte img {
+  width: 50%;
+}
 body .parteFour h1, body .parteFour h5, body .parteFour p {
   color: #000080;
 }
+body .parteFour h2 {
+  color: #000080;
+  margin-left: 0;
+  padding-bottom: 20px;
+}
+body .parteFour img {
+  width: 100%;
+  height: 250px;
+}
+body .parteFour .col {
+  padding: 5px;
+}
 body .parteCinco h1 {
   color: #000080;
-  padding: 20px;
 }
 body .parteCinco .cincoIntro .position-relative {
   background-color: #ffc900;
   padding: 100px;
+}
+body .parteCinco .portofolio {
+  text-align: right;
+  color: #ffc900;
+}
+body .parteCinco .p-3 .col {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
 }
 body footer a {
   text-decoration: none;

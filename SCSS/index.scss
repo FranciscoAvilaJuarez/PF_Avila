@@ -12,10 +12,39 @@ body{
     }
   }
 
+  .terceraParte{
+
+    .row-2{
+      padding-bottom: 10px;
+    }
+
+    img{
+      width: 50%;
+    }
+  }
+
+
   .parteFour{
+    
     h1, h5, p{
       color: #000080;
     }
+
+    h2{
+      color: #000080;
+      margin-left: 0;
+      padding-bottom: 20px;
+    }
+
+    img{
+      width: 100%;
+      height: 250px;
+    }
+
+    .col{
+      padding: 5px;
+    }
+    
   }
 
 
@@ -23,13 +52,25 @@ body{
 
     h1{
       color: #000080;
-      padding: 20px;
     }
 
     .cincoIntro{
       .position-relative{
         background-color: #ffc900;
         padding: 100px;
+      }
+    }
+
+    .portofolio{
+      text-align: right;
+      color: #ffc900;
+    }
+
+    .p-3{
+      .col{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
       }
     }
 
