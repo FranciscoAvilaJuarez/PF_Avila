@@ -4,16 +4,22 @@ body {
 body .timeline {
   position: relative;
 }
-body .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
+body .timeline .container {
+  padding-top: 20px;
+  padding-bottom: 20 px;
   position: relative;
-  background-color: inherit;
+  margin: 0;
   width: 50%;
   color: #002D62;
 }
-body .container img {
+body .timeline .container img {
   padding: 15px;
+}
+body .timeline .left-container {
+  left: 0;
+}
+body .timeline .right-container {
+  left: 50%;
 }
 body .md-image {
   background-size: cover;

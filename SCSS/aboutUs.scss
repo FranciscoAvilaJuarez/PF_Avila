@@ -6,17 +6,29 @@ body{
     }
 
     /* Container around content */
-    .container {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        position: relative;
-        background-color: inherit;
-        width: 50%;
-        color: #002D62;
+    .timeline{
 
-        img{
-            padding: 15px;
+        .container {
+            padding-top: 20px;
+            padding-bottom: 20 px;
+            position: relative;
+            margin: 0;
+            width: 50%;
+            color: #002D62;
+    
+            img{
+                padding: 15px;
+            }
         }
+
+        .left-container{
+            left: 0;
+        }
+
+        .right-container{
+            left: 50%;
+        }
+
     }
 
     .md-image{
